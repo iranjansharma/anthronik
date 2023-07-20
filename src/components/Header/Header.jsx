@@ -14,10 +14,15 @@ function Header() {
           </h1>
           <p className='text-xl lg:text-4xl mb-8'>Learning Innovation</p>
           <div className='flex justify-center mx-auto'>
-            <a className='capitalize bg-white text-gray-800 font-bold rounded-full py-1 px-[15px] cursor-pointer lg:px-4 lg:py-2'>
-              View Events
+            <a
+              target='_blank'
+              rel='noreferrer'
+              href='https://forms.gle/eHmqwMEVodo8QzDx7'
+              className='capitalize bg-white text-gray-800 font-bold rounded-full text-[14px] lg:text-[16px] py-2 px-4 cursor-pointer lg:px-4 lg:py-2'
+            >
+              Register
             </a>
-            <a className='ml-4 bg-white text-gray-800 font-bold rounded-full px-[15px] py-1 cursor-pointer lg:px-4 lg:py-2'>
+            <a className='ml-4 bg-white text-gray-800 font-bold rounded-full px-[15px] py-2 cursor-pointer lg:px-4 lg:py-2'>
               Contact Us
             </a>
           </div>

@@ -8,8 +8,13 @@ const Nav = () => {
           <img src={Logo} className='h-12 mr-3' alt='Anthronik Logo' />
         </a>
         <div className='flex md:order-2'>
-          <a className='bg-white text-gray-800 font-bold py-1 px-[15px] rounded-full lg:py-2 lg:px-4 ease-in-out cursor-pointer'>
-            Events
+          <a
+            target='_blank'
+            rel='noreferrer'
+            href='https://forms.gle/eHmqwMEVodo8QzDx7'
+            className='bg-white text-[12px] text-gray-800 font-bold py-1 px-[8px] rounded-full lg:py-2 lg:px-4 ease-in-out cursor-pointer'
+          >
+            Register For Events
           </a>
         </div>
         <div
