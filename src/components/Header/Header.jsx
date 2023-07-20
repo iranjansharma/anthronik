@@ -7,7 +7,7 @@ function Header() {
           'linear-gradient(90deg, rgba(131, 126, 226, 1) 24%, rgba(114, 114, 226, 1) 58%, rgba(0, 212, 255, 1) 100%)',
       }}
     >
-      <div className='container mx-auto flex px-5 py-24 items-center justify-center flex-col'>
+      <div className='container mx-auto flex px-5 py-36 items-center justify-center flex-col'>
         <div className='text-center w-full lg:w-3/4'>
           <h1 className='text-[33px] text-black my-4 lg:text-7xl  font-bold leading-tight'>
             Corporate Bonding
