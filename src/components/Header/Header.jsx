@@ -1,7 +1,7 @@
 function Header() {
   return (
     <div
-      className='w-screen h-screen text-white'
+      className='w-screen h-3/12 text-white'
       style={{
         background:
           'linear-gradient(90deg, rgba(131, 126, 226, 1) 24%, rgba(114, 114, 226, 1) 58%, rgba(0, 212, 255, 1) 100%)',
