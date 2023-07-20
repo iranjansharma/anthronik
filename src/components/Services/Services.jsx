@@ -9,7 +9,7 @@ import {
 
 const Services = () => {
   return (
-    <section className='pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]'>
+    <section className='pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]' id='services'>
       <div className='container mx-auto'>
         <div className='flex flex-wrap -mx-4'>
           <div className='w-full px-4'>

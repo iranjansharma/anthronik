@@ -15,16 +15,14 @@ function App() {
     <>
       <Nav />
       <Header />
-      <div className='w-11/12 mx-auto justify-center items-center content-center'>
-        <Services />
-        <WhoWeAre />
-        <Events />
-        <Gallery />
-        <Clients />
-        <Teams />
-        <Contact />
-        <Footer />
-      </div>
+      <Services />
+      <Events />
+      <WhoWeAre />
+      <Gallery />
+      <Clients />
+      <Teams />
+      <Contact />
+      <Footer />
     </>
   );
 }
