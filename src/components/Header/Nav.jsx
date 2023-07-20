@@ -8,12 +8,9 @@ const Nav = () => {
           <img src={Logo} className='h-12 mr-3' alt='Anthronik Logo' />
         </a>
         <div className='flex md:order-2'>
-          <button
-            type='button'
-            className='text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-[8px] text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 ease-in-out'
-          >
-            Get started
-          </button>
+          <a className='bg-white text-gray-800 font-bold py-1 px-[15px] rounded-full lg:py-2 lg:px-4 ease-in-out cursor-pointer'>
+            Events
+          </a>
         </div>
         <div
           className='items-center justify-between hidden w-full md:flex md:w-auto md:order-1'
