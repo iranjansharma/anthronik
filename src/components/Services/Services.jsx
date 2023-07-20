@@ -1,10 +1,11 @@
-import { FaHandshake, FaIndustry } from 'react-icons/fa';
-import { PiStrategyBold } from 'react-icons/Pi';
 import {
-  BsJournalBookmarkFill,
-  BsGraphUpArrow,
-  BsBookHalf,
-} from 'react-icons/Bs';
+  FaHandshakeSimple,
+  FaIndustry,
+  FaArrowUpRightDots,
+  FaBookBookmark,
+  FaArrowTrendUp,
+  FaBookOpen,
+} from 'react-icons/fa6';
 
 const Services = () => {
   return (
@@ -30,27 +31,27 @@ const Services = () => {
           <ServiceCard
             title='Strategic Intervention'
             details='We provide customized strategies and interventions to help individuals, businesses, and organizations achieve their goals. Through strategic thinking and innovative approaches, we navigate challenges and create pathways to success.'
-            icon={<PiStrategyBold />}
+            icon={<FaArrowUpRightDots />}
           />
           <ServiceCard
             title='Learning & Innovation'
             details='We foster a culture of continuous learning and innovation. Our expertise helps clients stay at the forefront of industry trends, embrace new technologies, and unlock their potential for growth and transformation.'
-            icon={<BsJournalBookmarkFill />}
+            icon={<FaBookBookmark />}
           />
           <ServiceCard
             title='Collaboration'
             details='We believe in the power of collaboration.By fostering meaningful partnerships and bringing together diverse perspectives,we create collaborative ecosystems that drive innovation,accelerate growth,deliver exceptional results.'
-            icon={<FaHandshake />}
+            icon={<FaHandshakeSimple />}
           />
           <ServiceCard
             title='Technical Evaluation Consulting & Project Execution'
             details='Our Technical Evaluation Consulting and Project Execution services provide expert guidance and seamless execution, ensuring successful outcomes for your projects. Trust our expertise to navigate the complexities and deliver exceptional results.'
-            icon={<BsGraphUpArrow />}
+            icon={<FaArrowTrendUp />}
           />
           <ServiceCard
             title='Conferences & Seminars'
             details='We organize and facilitate engaging events that provide platforms for knowledge exchange, networking, and inspiration. Our conferences, seminars, and summits bring together industry leaders, experts, and thought influencers to share insights and explore emerging trends'
-            icon={<BsBookHalf />}
+            icon={<FaBookOpen />}
           />
           <ServiceCard
             title='Summits'
