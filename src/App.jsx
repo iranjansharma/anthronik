@@ -16,15 +16,15 @@ function App() {
       <Nav />
       <Header />
       <Services />
-      {/* <div className='w-11/12 mx-auto justify-center items-center content-center'> */}
-      <Events />
-      <WhoWeAre />
-      <Gallery />
-      <Clients />
-      <Teams />
+      <div className='w-11/12 mx-auto justify-center items-center content-center'>
+        <Events />
+        <WhoWeAre />
+        <Gallery />
+        <Clients />
+        <Teams />
+      </div>
       <Contact />
       <Footer />
-      {/* </div> */}
     </>
   );
 }

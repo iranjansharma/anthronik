@@ -59,7 +59,10 @@ const Contact = () => {
   };
   return (
     <>
-      <section className='w-11/12 mx-auto bg-white py-20 lg:py-[120px] overflow-hidden relative z-10'>
+      <section
+        className='w-11/12 mx-auto bg-white py-20 lg:py-[120px] overflow-hidden relative z-10'
+        id='contact'
+      >
         <div className='container'>
           <div className='flex flex-wrap -mx-4 lg:justify-between'>
             <div className='w-full px-4 lg:w-1/2 xl:w-6/12'>
@@ -163,7 +166,7 @@ const Contact = () => {
                       value={form.name}
                       onChange={handleChange}
                       placeholder="What's Your Name ?"
-                      className='bg-tertiary py-4 px-6 placeholder:text-secondary text-gray-900 rounded-lg  border-2 font-medium'
+                      className='bg-tertiary py-4 px-6 placeholder:text-secondary  text-gray-900 rounded-lg  border-2 font-semibold'
                     />
                   </label>
                   <label className='flex flex-col'>
@@ -176,7 +179,7 @@ const Contact = () => {
                       value={form.email}
                       onChange={handleChange}
                       placeholder="What's your web address?"
-                      className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg border-2 font-medium'
+                      className='bg-tertiary py-4 px-6 placeholder:text-secondary font-semibold text-gray-900 rounded-lg border-2'
                     />
                   </label>
                   <label className='flex flex-col'>
@@ -188,7 +191,7 @@ const Contact = () => {
                       value={form.message}
                       onChange={handleChange}
                       placeholder='What Do You Want To Say?'
-                      className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg  border-2 font-medium'
+                      className='bg-tertiary py-4 px-6 placeholder:text-secondary text-gray-900 rounded-lg  border-2 font-semibold'
                     />
                   </label>
                   <button
