@@ -18,7 +18,7 @@ function Header() {
               target='_blank'
               rel='noreferrer'
               href='https://forms.gle/eHmqwMEVodo8QzDx7'
-              className='capitalize bg-white text-gray-800 font-bold rounded-full text-[14px] lg:text-[16px] py-2 px-4 cursor-pointer lg:px-4 lg:py-2'
+              className='capitalize bg-white text-gray-800 font-bold rounded-full lg:text-[16px] py-2 px-4 cursor-pointer lg:px-4 lg:py-2'
             >
               Register
             </a>

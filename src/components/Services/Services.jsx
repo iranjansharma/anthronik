@@ -9,18 +9,21 @@ import {
 
 const Services = () => {
   return (
-    <section className='pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]' id='services'>
+    <section
+      className='p-6 pb-12 lg:pt-[120px] lg:pb-[90px] mx-auto justify-center items-center content-center'
+      id='services'
+    >
       <div className='container mx-auto'>
         <div className='flex flex-wrap -mx-4'>
           <div className='w-full px-4'>
             <div className='mx-auto mb-12 max-w-[510px] text-center lg:mb-20'>
-              <span className='block mb-2 text-[16px] font-semibold text-primary'>
+              <span className='block mb-2 text-[14px] font-semibold text-primary'>
                 Our Services
               </span>
-              <h2 className='mb-4 text-3xl font-bold text-dark sm:text-4xl md:text-[40px] uppercase'>
+              <h2 className='mb-4 text-2xl font-bold text-dark sm:text-4xl md:text-[40px] uppercase'>
                 At ANTHRONIK
               </h2>
-              <p className='text-[16px] font-thin '>
+              <p className='text-[14px] lg:text-[16px] font-thin '>
                 We offer a range of services to meet diverse needs and drive
                 success for our clients. Our services include
               </p>
@@ -76,10 +79,12 @@ const ServiceCard = ({ icon, title, details }) => {
           >
             {icon}
           </div>
-          <h4 className='mb-3 text-[20px] font-bold text-dark text-gray-900'>
+          <h4 className='mb-3 text-[16px] lg:text-[19px] font-bold text-dark text-gray-900'>
             {title}
           </h4>
-          <p className='text-[16px] font-light text-gray-800'>{details}</p>
+          <p className='text-[14px] lg:text-[16px] font-light text-gray-800'>
+            {details}
+          </p>
         </div>
       </div>
     </>

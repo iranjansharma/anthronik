@@ -17,7 +17,7 @@ const Nav = () => {
   };
 
   return (
-    <nav className='bg-white border-gray-200 dark:bg-gray-900'>
+    <nav className='bg-white border-gray-200 dark:bg-gray-900 mx-auto justify-center items-center content-center'>
       <div className='container mx-auto max-w-screen-xl flex flex-wrap items-center justify-between py-[4px] px-8'>
         <a href='/' className='flex items-center'>
           <img src={Logo} className='h-12 mr-3' alt='Anthronik Logo' />
