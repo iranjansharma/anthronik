@@ -22,7 +22,10 @@ function Header() {
             >
               Register
             </a>
-            <a className='ml-4 bg-white text-gray-800 font-bold rounded-full px-[15px] py-2 cursor-pointer lg:px-4 lg:py-2'>
+            <a
+              href='#contact'
+              className='ml-4 bg-white text-gray-800 font-bold rounded-full px-[15px] py-2 cursor-pointer lg:px-4 lg:py-2'
+            >
               Contact Us
             </a>
           </div>
