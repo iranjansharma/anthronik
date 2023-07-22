@@ -25,7 +25,7 @@ const Gallery = () => {
           },
           {
             src: '/4.jpg',
-            width: 450,
+            width: 350,
             height: 200,
           },
           {
@@ -36,7 +36,7 @@ const Gallery = () => {
           {
             src: '/6.jpg',
             width: 400,
-            height: 200,
+            height: 300,
           },
           {
             src: '/7.jpg',
@@ -46,27 +46,27 @@ const Gallery = () => {
           {
             src: '/8.jpg',
             width: 400,
-            height: 200,
+            height: 250,
           },
           {
             src: '/9.jpg',
             width: 400,
-            height: 200,
+            height: 250,
           },
           {
             src: '/10.jpg',
             width: 400,
-            height: 200,
+            height: 250,
           },
           {
             src: '/11.jpg',
-            width: 450,
-            height: 200,
+            width: 400,
+            height: 250,
           },
           {
             src: '/12.jpg',
             width: 300,
-            height: 200,
+            height: 250,
           },
           {
             src: '/13.jpg',
@@ -76,71 +76,71 @@ const Gallery = () => {
           {
             src: '/14.jpg',
             width: 450,
-            height: 200,
+            height: 350,
           },
           {
             src: '/15.jpg',
             width: 400,
-            height: 200,
+            height: 300,
           },
           {
             src: '/16.jpg',
             width: 400,
-            height: 200,
+            height: 300,
           },
           {
             src: '/17.jpg',
             width: 400,
-            height: 200,
+            height: 250,
           },
           {
             src: '/18.jpg',
             width: 400,
-            height: 200,
+            height: 250,
           },
           {
             src: '/19.jpg',
             width: 400,
-            height: 200,
+            height: 300,
           },
           {
             src: '/20.jpg',
             width: 400,
-            height: 200,
+            height: 300,
           },
           {
             src: '/21.jpg',
             width: 400,
-            height: 200,
+            height: 300,
           },
           {
             src: '/22.jpg',
             width: 400,
-            height: 200,
+            height: 300,
           },
           {
             src: '/23.jpg',
             width: 400,
-            height: 200,
+            height: 300,
           },
           {
             src: '/24.jpg',
             width: 400,
-            height: 250,
+            height: 300,
           },
           {
             src: '/25.jpg',
             width: 400,
-            height: 250,
+            height: 300,
           },
           {
             src: '/26.jpg',
             width: 400,
-            height: 200,
+            height: 300,
           },
           {
             src: '/27.jpg',
-            width: 450,
+            width: 400,
             height: 200,
           },
         ]}

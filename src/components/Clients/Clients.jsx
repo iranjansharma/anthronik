@@ -25,7 +25,8 @@ const Clients = () => {
         cols={6}
         rows={1}
         gap={'5px'}
-        autoplay={2000}
+        loop={true}
+        autoplay={2500}
         mobileBreakpoint={[
           {
             breakpoint: 800,
