@@ -2,7 +2,7 @@ const UpcomingEvents = () => {
   return (
     <>
       <section
-        className='py-20 lg:py-[120px] w-11/12 mx-auto justify-center items-center content-center'
+        className='py-20 lg:py-[120px] container w-11/12 mx-auto justify-center items-center content-center'
         id='upcomingevents'
       >
         <div className='container'>

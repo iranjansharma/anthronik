@@ -1,6 +1,6 @@
 const Events = () => {
   return (
-    <div className='w-11/12 mx-auto justify-center items-center content-center'>
+    <div className='container w-11/12 mx-auto justify-center items-center content-center'>
       <div className='flex flex-wrap' id='events'>
         <div className='w-full px-4'>
           <div className='mx-auto mb-20 max-w-[1024px] text-center lg:mb-12'>

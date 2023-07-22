@@ -60,7 +60,7 @@ const Contact = () => {
   return (
     <>
       <section
-        className='w-11/12 mx-auto bg-white py-20 lg:py-[120px] overflow-hidden relative z-10'
+        className='container w-11/12 mx-auto bg-white py-20 lg:py-[120px] overflow-hidden relative z-10'
         id='contact'
       >
         <div className='container'>

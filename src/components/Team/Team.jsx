@@ -1,9 +1,9 @@
 const Team = () => {
   return (
-    <section className='pt-10 lg:pt-[120px] lg:pb-20 w-11/12 mx-auto justify-center items-center content-center'>
+    <section className='pt-10 container w-11/12 mx-auto justify-center items-center content-center'>
       <div className='container'>
         <div className='flex flex-wrap'>
-          <div className='w-full px-4'>
+          <div className='w-full'>
             <div className='mx-auto mb-[60px] max-w-[720px] text-center'>
               <h2 className='mb-4 text-3xl font-bold text-dark sm:text-4xl md:text-[40px] uppercase'>
                 Our Team

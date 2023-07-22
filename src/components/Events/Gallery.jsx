@@ -4,7 +4,7 @@ const Gallery = () => {
   return (
     <div
       id='gallery'
-      className='w-11/12 mx-auto justify-center items-center content-center'
+      className='container w-11/12 mx-auto justify-center items-center content-center'
     >
       <PhotoAlbum
         photos={[
