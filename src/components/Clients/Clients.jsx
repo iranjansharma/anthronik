@@ -9,7 +9,7 @@ const Clients = () => {
       <div className='flex flex-wrap'>
         <div className='w-full px-4'>
           <div className='mx-auto mb-[60px] max-w-[720px] text-center'>
-            <h2 className=' text-3xl font-bold pt-8 pb-2 text-white sm:text-4xl md:text-[40px] uppercase'>
+            <h2 className=' lg:text-3xl font-bold pt-8 pb-2 text-white sm:text-4xl md:text-[40px] uppercase'>
               Our clientele
             </h2>
             <p className='text-[12px] lg:text-[16px] w-fit font-light text-white'>
@@ -21,30 +21,140 @@ const Clients = () => {
           </div>
         </div>
       </div>
-      <Carousel cols={2} rows={1} gap={0} autoplay={3000}>
+      <Carousel
+        cols={6}
+        rows={1}
+        gap={'5px'}
+        autoplay={2000}
+        mobileBreakpoint={[
+          {
+            breakpoint: 800,
+            cols: 2,
+            rows: 1,
+            gap: 5,
+            loop: true,
+            autoplay: 1000,
+          },
+        ]}
+      >
         <Carousel.Item>
-          <img width='40%' src='https://picsum.photos/800/600?random=1' />
+          <img
+            width='40%'
+            draggable='false'
+            src='https://github.com/iranjansharma/anthronik/blob/main/src/assets/1.jpg?raw=true'
+          />
         </Carousel.Item>
         <Carousel.Item>
-          <img width='40%' src='https://picsum.photos/800/600?random=2' />
+          <img
+            width='40%'
+            draggable='false'
+            src='https://github.com/iranjansharma/anthronik/blob/main/src/assets/2.jpg?raw=true'
+          />
         </Carousel.Item>
         <Carousel.Item>
-          <img width='40%' src='https://picsum.photos/800/600?random=3' />
+          <img
+            width='40%'
+            draggable='false'
+            src='https://github.com/iranjansharma/anthronik/blob/main/src/assets/3.png?raw=true'
+          />
         </Carousel.Item>
         <Carousel.Item>
-          <img width='40%' src='https://picsum.photos/800/600?random=3' />
+          <img
+            width='40%'
+            draggable='false'
+            src='https://github.com/iranjansharma/anthronik/blob/main/src/assets/4.jpg?raw=true'
+          />
         </Carousel.Item>
         <Carousel.Item>
-          <img width='40%' src='https://picsum.photos/800/600?random=3' />
+          <img
+            width='40%'
+            draggable='false'
+            src='https://github.com/iranjansharma/anthronik/blob/main/src/assets/5.jpg?raw=true'
+          />
         </Carousel.Item>
         <Carousel.Item>
-          <img width='40%' src='https://picsum.photos/800/600?random=3' />
+          <img
+            width='40%'
+            draggable='false'
+            src='https://github.com/iranjansharma/anthronik/blob/main/src/assets/6.webp?raw=true'
+          />
         </Carousel.Item>
         <Carousel.Item>
-          <img width='40%' src='https://picsum.photos/800/600?random=3' />
+          <img
+            width='25%'
+            draggable='false'
+            src='https://github.com/iranjansharma/anthronik/blob/main/src/assets/7.png?raw=true'
+          />
         </Carousel.Item>
         <Carousel.Item>
-          <img width='40%' src='https://picsum.photos/800/600?random=3' />
+          <img
+            width='40%'
+            draggable='false'
+            src='https://github.com/iranjansharma/anthronik/blob/main/src/assets/8.jpg?raw=true'
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            width='40%'
+            draggable='false'
+            src='https://github.com/iranjansharma/anthronik/blob/main/src/assets/9.png?raw=true'
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            width='40%'
+            draggable='false'
+            src='https://github.com/iranjansharma/anthronik/blob/main/src/assets/10.png?raw=true'
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            width='40%'
+            draggable='false'
+            src='https://github.com/iranjansharma/anthronik/blob/main/src/assets/11.jpg?raw=true'
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            width='40%'
+            draggable='false'
+            src='https://github.com/iranjansharma/anthronik/blob/main/src/assets/12.png?raw=true'
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            width='40%'
+            draggable='false'
+            src='https://github.com/iranjansharma/anthronik/blob/main/src/assets/13.png?raw=true'
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            width='40%'
+            draggable='false'
+            src='https://github.com/iranjansharma/anthronik/blob/main/src/assets/14.png?raw=true'
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            width='40%'
+            draggable='false'
+            src='https://github.com/iranjansharma/anthronik/blob/main/src/assets/15.jpg?raw=true'
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            width='40%'
+            draggable='false'
+            src='https://github.com/iranjansharma/anthronik/blob/main/src/assets/16.jpg?raw=true'
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            width='40%'
+            draggable='false'
+            src='https://github.com/iranjansharma/anthronik/blob/main/src/assets/17.jpg?raw=true'
+          />
         </Carousel.Item>
       </Carousel>
       <p className='hidden lg:text-[12px] text-center mt-6 mx-auto text-white justify-center font-light italic underline'>

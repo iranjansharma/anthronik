@@ -19,13 +19,13 @@ const Team = () => {
         </div>
         <div className='flex flex-wrap justify-center'>
           <TeamCard
-            name='Director '
-            profession=' (Business Development)'
+            name='Shri Rahul Deo  '
+            profession='Director (Business Development)'
             imageSrc='https://i.ibb.co/T1J9LD4/image-03-2.jpg'
           />
           <TeamCard
-            name='Director '
-            profession='( Marketing )'
+            name='Dr. Swarnim J. Dixit  '
+            profession='Director( Marketing )'
             imageSrc='https://i.ibb.co/8P6cvVy/image-01-1.jpg'
           />
           <TeamCard
@@ -45,7 +45,7 @@ const Team = () => {
           />
           <TeamCard
             name='Prof. Srabani Taraphder'
-            profession=', Department of Chemistry, Indian Institute of Technology Kharagpur (Advisor)'
+            profession='Department of Chemistry, Indian Institute of Technology Kharagpur (Advisor)'
             imageSrc='https://i.ibb.co/yVVT0Dp/image-02-2.jpg'
           />
         </div>
@@ -65,8 +65,8 @@ const TeamCard = ({ imageSrc, name, profession }) => {
             <img src={imageSrc} alt='' className='w-full' />
             <div className='absolute left-0 w-full text-center bottom-5'>
               <div className='relative px-3 py-5 mx-5 overflow-hidden bg-white rounded-lg'>
-                <h3 className='text-base font-semibold text-dark'>{name}</h3>
-                <p className='text-sm text-body-color'>{profession}</p>
+                <h3 className='text-[16px] font-bold text-dark'>{name}</h3>
+                <p className='text-[12px] text-body-color'>{profession}</p>
                 <div>
                   <span className='absolute bottom-0 left-0'>
                     <svg
