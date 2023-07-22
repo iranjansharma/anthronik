@@ -96,7 +96,15 @@ const Contact = () => {
                       Our Location
                     </h4>
                     <p className='text-[16px] text-gray-900'>
-                      99 S.t Jomblo Park Pekanbaru 28292. Indonesia
+                      <a
+                        href='https://goo.gl/maps/CUW3cE5Kbz33QRgP9'
+                        className='hover:text-green-600'
+                        target='_blank'
+                        rel='noreferrer'
+                      >
+                        Building No - S1, 2nd Floor, Beside Nagaland Kitchen,
+                        Green Park Extension, New Delhi - 110016
+                      </a>
                     </p>
                   </div>
                 </div>
@@ -118,7 +126,12 @@ const Contact = () => {
                       Phone Number
                     </h4>
                     <p className='text-[16px] text-gray-900'>
-                      <a href='tel:+918178540300'>(+91)88178-540-300</a>
+                      <a
+                        href='tel:+911140194814'
+                        className='hover:text-green-600'
+                      >
+                        (+91)-1140-194-814
+                      </a>
                     </p>
                   </div>
                 </div>
@@ -138,8 +151,11 @@ const Contact = () => {
                       Email Address
                     </h4>
                     <p className='text-[16px] text-gray-900'>
-                      <a href='mailto:contact@anthronik.com'>
-                        contact@anthronik.com
+                      <a
+                        href='mailto:contact@anthronik.com'
+                        className='hover:text-green-600'
+                      >
+                        connect@anthronik.com
                       </a>
                     </p>
                   </div>
