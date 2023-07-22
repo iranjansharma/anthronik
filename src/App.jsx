@@ -20,9 +20,9 @@ function App() {
       <Services />
       <Events />
       {/* <Gallery /> */}
-      <UpcomingEvents />
+      {/* <UpcomingEvents /> */}
       {/* <Clients /> */}
-      <Teams />
+      {/* <Teams /> */}
       <Contact />
       <Footer />
     </>
