@@ -21,7 +21,7 @@ function App() {
       <Events />
       <Gallery />
       <UpcomingEvents />
-      <Clients />
+      {/* <Clients /> */}
       <Teams />
       <Contact />
       <Footer />
