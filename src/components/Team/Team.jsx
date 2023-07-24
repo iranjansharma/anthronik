@@ -24,32 +24,32 @@ const Team = () => {
           <TeamCard
             name='Shri Rahul Deo  '
             profession='Director (Business Development)'
-            imageSrc='https://i.ibb.co/T1J9LD4/image-03-2.jpg'
+            imageSrc='https://placehold.co/540x660.png'
           />
           <TeamCard
             name='Dr. Swarnim J. Dixit  '
             profession='Director( Marketing )'
-            imageSrc='https://i.ibb.co/8P6cvVy/image-01-1.jpg'
+            imageSrc='https://placehold.co/540x660.png'
           />
           <TeamCard
             name='Dr. Anil Wali '
             profession='(Ex MD & CEO – FITT – IIT Delhi)'
-            imageSrc='https://i.ibb.co/30tGtjP/image-04.jpg'
+            imageSrc='https://placehold.co/540x660.png'
           />
           <TeamCard
             name='Dr. S. S. Bhattacharyya'
             profession='Consultant – ANTHRONIK & FITT – IIT Delhi '
-            imageSrc='https://i.ibb.co/yVVT0Dp/image-02-2.jpg'
+            imageSrc='https://placehold.co/540x660.png'
           />
           <TeamCard
             name='Dr. Snehasis Mukhopadhyay'
             profession='Professor, Department of Computer & Information Science Indiana University – Purdue University – Indianapolis (Advisor)'
-            imageSrc='https://i.ibb.co/yVVT0Dp/image-02-2.jpg'
+            imageSrc='https://placehold.co/540x660.png'
           />
           <TeamCard
             name='Prof. Srabani Taraphder'
             profession='Department of Chemistry, Indian Institute of Technology Kharagpur (Advisor)'
-            imageSrc='https://i.ibb.co/yVVT0Dp/image-02-2.jpg'
+            imageSrc='https://placehold.co/540x660.png'
           />
         </div>
       </div>

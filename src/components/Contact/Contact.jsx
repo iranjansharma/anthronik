@@ -31,9 +31,9 @@ const Contact = () => {
         'template_d4vww7s',
         {
           from_name: form.name,
-          to_name: 'Ranjan Sharma',
+          to_name: 'Anthronik',
           from_email: form.email,
-          to_email: 'just.think2003@gmail.com',
+          to_email: 'connect@anthronik.com',
           message: form.message,
         },
         '3gwsA6EqqDRScOC_R'
