@@ -1,6 +1,9 @@
 const Team = () => {
   return (
-    <section className='pt-10 container w-11/12 mx-auto justify-center items-center content-center'>
+    <section
+      className='pt-10 container w-11/12 mx-auto justify-center items-center content-center'
+      id='team'
+    >
       <div className='container'>
         <div className='flex flex-wrap'>
           <div className='w-full'>

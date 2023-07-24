@@ -10,7 +10,7 @@ import {
 const Services = () => {
   return (
     <section
-      className='p-6 pb-12 lg:pt-[120px] lg:pb-[90px] mx-auto justify-center items-center content-center'
+      className='p-4 lg:pt-[120px] lg:pb-[90px] mx-auto justify-center items-center content-center'
       id='services'
     >
       <div className='container mx-auto'>
