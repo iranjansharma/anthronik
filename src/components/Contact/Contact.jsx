@@ -27,16 +27,16 @@ const Contact = () => {
 
     emailjs
       .send(
-        'service_n3pml2k',
-        'template_d4vww7s',
+        'service_vp75ygs',
+        'template_zcract1',
         {
           from_name: form.name,
           to_name: 'Anthronik',
           from_email: form.email,
-          to_email: 'connect@anthronik.com',
+          to_email: 'dswarnim@gmail.com',
           message: form.message,
         },
-        '3gwsA6EqqDRScOC_R'
+        'SCE-FYuKkwnbY5yp3'
       )
       .then(
         () => {

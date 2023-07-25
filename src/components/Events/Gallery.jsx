@@ -148,6 +148,11 @@ const Gallery = () => {
             width: 400,
             height: 200,
           },
+          {
+            src: '/29.jpg',
+            width: 400,
+            height: 250,
+          },
         ]}
         layout='rows'
       />
