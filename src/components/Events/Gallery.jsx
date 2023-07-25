@@ -129,6 +129,11 @@ const Gallery = () => {
             height: 300,
           },
           {
+            src: '/28.jpg',
+            width: 300,
+            height: 400,
+          },
+          {
             src: '/25.jpg',
             width: 400,
             height: 300,

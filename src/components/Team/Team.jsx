@@ -24,22 +24,22 @@ const Team = () => {
           <TeamCard
             name='Shri Rahul Deo  '
             profession='Director (Business Development)'
-            imageSrc='https://placehold.co/540x660.png'
+            imageSrc='/rahuldeo.jpg'
           />
           <TeamCard
             name='Dr. Swarnim J. Dixit  '
             profession='Director( Marketing )'
-            imageSrc='https://placehold.co/540x660.png'
+            imageSrc='/dixit.jpg'
           />
           <TeamCard
             name='Dr. Anil Wali '
             profession='(Ex MD & CEO – FITT – IIT Delhi)'
-            imageSrc='https://placehold.co/540x660.png'
+            imageSrc='/anil.jpg'
           />
           <TeamCard
             name='Dr. S. S. Bhattacharyya'
             profession='Consultant – ANTHRONIK & FITT – IIT Delhi '
-            imageSrc='https://placehold.co/540x660.png'
+            imageSrc='/bhattacharya.jpg'
           />
           <TeamCard
             name='Dr. Snehasis Mukhopadhyay'
@@ -65,9 +65,9 @@ const TeamCard = ({ imageSrc, name, profession }) => {
       <div className='w-full px-4 md:w-1/2 xl:w-1/4'>
         <div className='mx-auto mb-10 w-full max-w-[370px]'>
           <div className='relative overflow-hidden rounded-lg'>
-            <img src={imageSrc} alt='' className='w-full' />
+            <img src={imageSrc} alt='' className='h-[350px] w-full' />
             <div className='absolute left-0 w-full text-center bottom-5'>
-              <div className='relative px-3 py-5 mx-5 overflow-hidden bg-white rounded-lg'>
+              <div className='relative py-2 mx-5 overflow-hidden bg-white rounded-lg'>
                 <h3 className='text-[16px] font-bold text-dark'>{name}</h3>
                 <p className='text-[12px] text-body-color'>{profession}</p>
                 <div>
