@@ -20,14 +20,14 @@ const Nav = () => {
     <nav className='bg-white border-gray-200 dark:bg-gray-900 mx-auto justify-center items-center content-center sticky top-0 z-50'>
       <div className='container mx-auto max-w-screen-xl flex flex-wrap items-center justify-between py-4 px-2'>
         <a href='/' className='flex items-center'>
-          <img src={Logo} className='h-8 lg:h-12 mr-3' alt='Anthronik Logo' />
+          <img src={Logo} className='h-6 lg:h-6 mr-3' alt='Anthronik Logo' />
         </a>
         <div className='flex md:order-2'>
           <a
             target='_blank'
             rel='noreferrer'
             href='https://forms.gle/eHmqwMEVodo8QzDx7'
-            className='bg-white text-[12px] text-gray-800 font-bold py-1 px-[8px] rounded-full lg:py-2 lg:px-4 ease-in-out cursor-pointer'
+            className='bg-white text-[12px] text-gray-800 font-bold py-[7px] px-[10px] rounded-full lg:py-2 lg:px-4 ease-in-out cursor-pointer'
           >
             Register For Events
           </a>
