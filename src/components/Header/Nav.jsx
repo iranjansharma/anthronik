@@ -17,10 +17,10 @@ const Nav = () => {
   };
 
   return (
-    <nav className='bg-white border-gray-200 dark:bg-gray-900 mx-auto justify-center items-center content-center'>
-      <div className='container mx-auto max-w-screen-xl flex flex-wrap items-center justify-between py-[4px] px-8'>
+    <nav className='bg-white border-gray-200 dark:bg-gray-900 mx-auto justify-center items-center content-center sticky top-0 z-50'>
+      <div className='container mx-auto max-w-screen-xl flex flex-wrap items-center justify-between py-4 px-2'>
         <a href='/' className='flex items-center'>
-          <img src={Logo} className='h-12 mr-3' alt='Anthronik Logo' />
+          <img src={Logo} className='h-8 lg:h-12 mr-3' alt='Anthronik Logo' />
         </a>
         <div className='flex md:order-2'>
           <a
@@ -81,7 +81,14 @@ const Nav = () => {
                   onClick={displayNone}
                   className='text-white my-2 mx-2 text-[16px] font-semibold'
                 >
-                  Past Events
+                  ICH 2018
+                </a>
+                <a
+                  href='#events'
+                  onClick={displayNone}
+                  className='text-white my-2 mx-2 text-[16px] font-semibold'
+                >
+                  Green Energy Revolution At IIT Delhi
                 </a>
                 <a
                   onClick={displayNone}
@@ -104,9 +111,9 @@ const Nav = () => {
             <li>
               <a
                 href='#ourclients'
-                className='block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700'
+                className='block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 capitalize'
               >
-                Our Clients
+                Our Clientele
               </a>
             </li>
             <li>

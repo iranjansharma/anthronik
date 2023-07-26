@@ -17,13 +17,13 @@ body {
 }
 
 .item {
-  min-height: 220px;
-  min-width: 250px;
+  min-height: 100px;
+  min-width: 130px;
   padding: 30px;
 }
 .item img {
-  width: 200px;
-  height: 220px;
+  width: 100px;
+  height: 90px;
   border-radius: 10px;
   pointer-events: none;
 }

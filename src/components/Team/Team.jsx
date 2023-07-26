@@ -65,7 +65,12 @@ const TeamCard = ({ imageSrc, name, profession }) => {
       <div className='w-full px-4 md:w-1/2 xl:w-1/4'>
         <div className='mx-auto mb-10 w-full max-w-[370px]'>
           <div className='relative overflow-hidden rounded-lg'>
-            <img src={imageSrc} alt='' className='h-[350px] w-full' />
+            <img
+              src={imageSrc}
+              alt=''
+              className='h-[360px] w-full'
+              draggable='false'
+            />
             <div className='absolute left-0 w-full text-center bottom-5'>
               <div className='relative py-2 mx-5 overflow-hidden bg-white rounded-lg'>
                 <h3 className='text-[16px] font-bold text-dark'>{name}</h3>

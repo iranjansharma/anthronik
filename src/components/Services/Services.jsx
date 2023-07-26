@@ -14,13 +14,13 @@ const Services = () => {
       id='services'
     >
       <div className='container mx-auto'>
-        <div className='flex flex-wrap -mx-4'>
+        <div className='flex flex-wrap'>
           <div className='w-full px-4'>
-            <div className='mx-auto mb-12 max-w-[510px] text-center lg:mb-20'>
+            <div className='mx-auto mb-12 max-w-[510px] text-center'>
               <span className='block mb-2 text-[14px] font-semibold text-primary'>
                 Our Services
               </span>
-              <h2 className='mb-4 text-2xl font-bold text-dark sm:text-4xl md:text-[40px] uppercase'>
+              <h2 className='text-2xl font-bold text-dark sm:text-4xl md:text-[40px] uppercase'>
                 At ANTHRONIK
               </h2>
               <p className='text-[14px] lg:text-[16px] font-thin '>
