@@ -29,7 +29,7 @@ const ImageSlider = () => {
             <img
               src='/banner1.jpg'
               alt='Events Images'
-              className='h-[500px] w-[400px] object-cover lg:h-full lg:w-full'
+              className='h-[500px] w-[500px] object-cover lg:h-full lg:w-full'
             />
             <div className='absolute z-10 top-[84%] left-[18%] text-black text-lg px-6 border-[#90b75a] border-[2px] font-black rounded-full uppercase'>
               <a
@@ -48,7 +48,7 @@ const ImageSlider = () => {
             <img
               src='/banner2.jpg'
               alt=''
-              className='h-[500px] w-[400px] object-cover lg:h-full lg:w-full'
+              className='h-[500px] w-[500px] object-cover lg:h-full lg:w-full'
             />
           </div>
         </SwiperSlide>
@@ -57,7 +57,7 @@ const ImageSlider = () => {
             <img
               src='/banner3.jpg'
               alt=''
-              className='h-[500px] w-[400px] object-cover lg:h-full lg:w-full'
+              className='h-[500px] w-[500px] object-cover lg:h-full lg:w-full'
             />
           </div>
         </SwiperSlide>
@@ -66,7 +66,7 @@ const ImageSlider = () => {
             <img
               src='/banner4.jpg'
               alt=''
-              className='h-[500px] w-[400px] object-cover lg:h-full lg:w-full'
+              className='h-[500px] w-[500px] object-cover lg:h-full lg:w-full'
             />
           </div>
         </SwiperSlide>
