@@ -1,41 +1,76 @@
-import React, { useState } from 'react';
-import { SliderData } from './SliderData';
-import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
-const ImageSlider = ({ slides }) => {
-  const [current, setCurrent] = useState(0);
-  const length = slides.length;
+import 'swiper/css/bundle';
+import 'swiper/css';
 
-  const nextSlide = () => {
-    setCurrent(current === length - 1 ? 0 : current + 1);
-  };
-
-  const prevSlide = () => {
-    setCurrent(current === 0 ? length - 1 : current - 1);
-  };
-
-  if (!Array.isArray(slides) || slides.length <= 0) {
-    return null;
-  }
-
+const ImageSlider = () => {
   return (
-    <div className='container w-11/12 mx-auto justify-center items-center content-center'>
-      <section className='container mx-auto flex justify-center items-center slider '>
-        <FaArrowAltCircleLeft className='left-arrow' onClick={prevSlide} />
-        <FaArrowAltCircleRight className='right-arrow' onClick={nextSlide} />
-        {SliderData.map((slide, index) => {
-          return (
-            <div
-              className={index === current ? 'slide active' : 'slide'}
-              key={index}
-            >
-              {index === current && (
-                <img src={slide.image} alt='travel image' className='image' />
-              )}
+    <div>
+      <Swiper
+        className='container justify-center mx-auto items-center content-center'
+        spaceBetween={30}
+        centeredSlides={true}
+        autoplay={{
+          delay: 3500,
+          disableOnInteraction: true,
+        }}
+        pagination={{
+          clickable: true,
+        }}
+        navigation={true}
+        modules={[Autoplay, Pagination, Navigation]}
+      >
+        <SwiperSlide>
+          <div className='sm:h-[500px] lg:h-full lg:w-full'>
+            <img
+              src='/banner1.jpg'
+              alt='Events Images'
+              className='h-[500px] w-[400px] object-cover lg:h-full lg:w-full'
+            />
+            <div className='absolute z-10 top-[84%] left-[18%] text-black text-lg px-6 border-[#90b75a] border-[2px] font-black rounded-full uppercase'>
+              <a
+                href='https://forms.gle/eHmqwMEVodo8QzDx7'
+                target='_blank'
+                rel='noreferrer'
+                className='hover:text-gray-600 duration-400 ease-in-out'
+              >
+                Register Here
+              </a>
             </div>
-          );
-        })}
-      </section>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className='sm:h-[500px] lg:h-full lg:w-ful'>
+            <img
+              src='/banner2.jpg'
+              alt=''
+              className='h-[500px] w-[400px] object-cover lg:h-full lg:w-full'
+            />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className='sm:h-[500px] lg:h-full lg:w-ful'>
+            <img
+              src='/banner3.jpg'
+              alt=''
+              className='h-[500px] w-[400px] object-cover lg:h-full lg:w-full'
+            />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className='sm:h-[500px] lg:h-full lg:w-ful'>
+            <img
+              src='/banner4.jpg'
+              alt=''
+              className='h-[500px] w-[400px] object-cover lg:h-full lg:w-full'
+            />
+          </div>
+        </SwiperSlide>
+      </Swiper>
     </div>
   );
 };

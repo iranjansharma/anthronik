@@ -9,7 +9,7 @@ const Nav = () => {
     setDisplay('');
     setTimeout(() => {
       setDisplay('hidden');
-    }, 6000);
+    }, 5000);
   };
 
   const displayNone = () => {
@@ -77,7 +77,7 @@ const Nav = () => {
                 className={`${display} flex flex-col absolute my-2 bg-gray-800 rounded`}
               >
                 <a
-                  href='#events'
+                  href='#'
                   onClick={displayNone}
                   className='text-white my-2 mx-2 text-[16px] font-semibold'
                 >
